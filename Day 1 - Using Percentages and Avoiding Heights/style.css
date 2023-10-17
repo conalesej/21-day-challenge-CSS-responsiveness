@@ -9,6 +9,13 @@ body {
 .parent {
   background-color: #23424a;
   padding: 50px;
+
+  /* If you assign a width - you will encounter some issues when resizing. when it's not, it will be responsiv */
+  /* Default Value for the attribute "width" is : 100% */
+
+  /* width: 900px; */
+  width: 80%;
+  margin: 0 auto;
 }
 
 .child {
