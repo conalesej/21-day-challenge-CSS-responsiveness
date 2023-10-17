@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .parent {
@@ -21,7 +22,20 @@ body {
 .child {
   background-color: #38cfd9;
 
-  width: 50%;
+  width: 50%; /* Normally you would not try to set some width of a Child*/
 
   height: 250px;
+}
+
+.container {
+  background-color: #23424a;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+
+  /* This cause text to overflow if given a specific height*/
+  /* Solution : Don't give it height or do padding*/
+
+  /* height: 300px; */
+  padding: 5em; /* 16px * 5 = 80px */
 }
