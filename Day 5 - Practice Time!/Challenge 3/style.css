@@ -8,7 +8,7 @@
 .hero {
   min-height: 60vh;
   width: 100%;
-  padding: 100px;
+  padding: 100px 0;
 
   background: #23424a;
 
@@ -16,7 +16,8 @@
   font-family: "Roboto", sans-serif;
 }
 .hero-container {
-  width: 40%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .hero-header {
