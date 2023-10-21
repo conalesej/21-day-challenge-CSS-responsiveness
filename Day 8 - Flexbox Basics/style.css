@@ -52,6 +52,8 @@
   background: white;
   color: black;
   width: 100%;
+
+  font-family: "Roboto", sans-serif;
 }
 
 .desc-container {
@@ -59,7 +61,15 @@
   margin: 20px auto 0;
 }
 .desc-row {
+  /* Flex Container */
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+
+.desc-col {
+  /* Flex Items */
+  /* Divs by default has width of 100%  */
+  /* But when it becomes a Flex Item, It shrinks to the lowest Possible it can be  */
+  width: 100%; /* Forces the items to be the ideal */
 }
