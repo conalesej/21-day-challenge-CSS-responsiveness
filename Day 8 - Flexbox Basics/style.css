@@ -64,7 +64,7 @@
   /* Flex Container */
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 20px; /* If this is not */
 }
 
 .desc-col {
