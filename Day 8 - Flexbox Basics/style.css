@@ -26,7 +26,7 @@
   font-weight: 900;
 }
 .hero-body-text {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 300;
   letter-spacing: 0.5px;
   letter-spacing: 1px;
@@ -50,15 +50,19 @@
 
 .description {
   background: white;
-  color: black;
+  color: #3a3a3a;
   width: 100%;
 
+  padding: 40px 0px;
   font-family: "Roboto", sans-serif;
 }
 
 .desc-container {
   width: 80%;
-  margin: 20px auto 0;
+
+  max-width: 960px;
+
+  margin: 60px auto;
 }
 .desc-row {
   /* Flex Container */
@@ -72,4 +76,46 @@
   /* Divs by default has width of 100%  */
   /* But when it becomes a Flex Item, It shrinks to the lowest Possible it can be  */
   width: 100%; /* Forces the items to be the ideal */
+  text-align: center;
+}
+
+.desc-col h2 {
+  font-size: 2.25rem;
+  color: #87629a;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background: #136c72;
+  color: white;
+  width: 100%;
+
+  font-family: "Roboto", sans-serif;
+  padding: 40px 0px;
+}
+
+.footer-container {
+  width: 80%;
+  max-width: 960px;
+
+  margin: 60px auto;
+}
+.footer-row {
+  /* Flex Container */
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* If this is not */
+}
+
+.footer-col {
+  /* Flex Items */
+  /* Divs by default has width of 100%  */
+  /* But when it becomes a Flex Item, It shrinks to the lowest Possible it can be  */
+  width: 100%; /* Forces the items to be the ideal */
+  text-align: center;
+}
+
+.footer-col h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
 }
