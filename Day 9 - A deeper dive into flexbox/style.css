@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  width: 100%;
+  padding: 100px 0;
+
+  background: #23424a;
+
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.hero-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-header {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.hero-body-text {
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.hero-button {
+  outline: unset;
+  border: unset;
+  cursor: pointer;
+
+  background: #40ccdc;
+
+  padding: 1.25rem 2.5rem;
+  color: black;
+
+  border-radius: 50px;
+
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.description {
+  background: white;
+  color: #3a3a3a;
+  width: 100%;
+
+  padding: 40px 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.desc-container {
+  width: 80%;
+
+  max-width: 960px;
+
+  margin: 60px auto;
+}
+.desc-row {
+  /* Flex Container */
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* If this is not */
+}
+
+.desc-col {
+  /* Flex Items */
+  /* Divs by default has width of 100%  */
+  /* But when it becomes a Flex Item, It shrinks to the lowest Possible it can be  */
+  width: 100%; /* Forces the items to be the ideal */
+  text-align: center;
+}
+
+.desc-col h2 {
+  font-size: 2.25rem;
+  color: #87629a;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background: #136c72;
+  color: white;
+  width: 100%;
+
+  font-family: "Roboto", sans-serif;
+  padding: 40px 0px;
+}
+
+.footer-container {
+  width: 80%;
+  max-width: 960px;
+
+  margin: 60px auto;
+}
+.footer-row {
+  /* Flex Container */
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* If this is not */
+}
+
+.footer-col {
+  /* Flex Items */
+  /* Divs by default has width of 100%  */
+  /* But when it becomes a Flex Item, It shrinks to the lowest Possible it can be  */
+  width: 100%; /* Forces the items to be the ideal */
+  text-align: center;
+}
+
+.footer-col h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
